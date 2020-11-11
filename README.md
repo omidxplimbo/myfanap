@@ -20,5 +20,5 @@
 
  Route::get('/', 'FanapController@lists');
  
- this route get 5 custom post list in pod
+ this route call api and gets 5 custom post list in business
  
