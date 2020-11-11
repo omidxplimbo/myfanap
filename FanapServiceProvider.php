@@ -25,7 +25,7 @@ class FanapServiceProvider extends ServiceProvider
     {
         $this->loadRoutesFrom(__DIR__ . '/routes/routes.php');
         $this->publishes([
-            __DIR__ . '/config/fanap.php' => config_path('myfanap')
+            __DIR__ . '/config/fanap.php' => config_path('myfanap.php')
         ]);
     }
 }
