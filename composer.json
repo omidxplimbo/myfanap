@@ -1,0 +1,23 @@
+{
+    "name": "omid/fanap",
+    "authors": [
+        {
+            "name": "omid dehghan",
+            "email": "omidxplimbo@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Dev\\Fanap\\": "src/",
+            "Dev\\Main\\": "/"
+        }
+    },
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dev\\Main\\FanapServiceProvider"
+            ]
+        }
+    }
+}
